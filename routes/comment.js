@@ -1,7 +1,7 @@
 // routes/comment.js
 import express from 'express';
 import { db } from '../config/firebase.js';
-import authMiddleware from '../middleware/authMiddleware.js';
+import authMiddleware from '../middleWare/authMiddleware.js';
 
 const router = express.Router();
 
